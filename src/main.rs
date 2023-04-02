@@ -54,35 +54,120 @@
 //      a + b //function body
 //  }
 
-// let x = (1,1);
-// let y = (3,0);
-// let z = (x,1);
+// let x = name(1,1);
+// let y = name(3,0);
+// let z = name(x,1);
 
 
 
 
 
+//*The println macro */
+// println => print to the console
+// println! => print to the console with a format
+
+
+
+// "{life:?}" => for debugging
+// "{life}" => println to the console (the user can see it )
+// fn main() {
+// let life  = 100;
+// println!("Hello");
+// println!("{:?}", life);
+// println!("{:?} {:?}", life, life);
+// println!("the meaning is {:?}", life);
+// println!("{life:?}");// for debug
+// println!("{life}");//fro printing in the console 
+// }
 
 
 
 
+//* control flow "if" */
+//? if condition 
+// let life = 1000;
+// if life > 100 {
+//     println!("big number");
+// } else {
+//     println!("small number");
+// }//* big number
+
+//? nested if/else condition 
+// let a = 150;
+//  if a >100{
+
+//  if a >200{
+//     println!("Huge number");
+//  }else {
+//      println!("big number");
+//  }
+//  }else{
+//     println!("small number");
+//  }//* big number
+
+
+//? if else if condition 
+// let a = 99;
+// if a > 200 {
+//     println!("huge number");
+// } else if a > 99 {
+//     println!("big number");
+// } else {
+//     println!("small number");
+// }
+
+
+//! this will not work
+// if a > 99 {
+//     println!("big number");
+// }else if a>200 {
+//     println("huge number");
+// }else {
+//     println("small number");
+// }
+
+
+
+//* Repetition using loops */
+
+//*using loop */
+
+// let mut a = 1 ; //? mut for making the variable changeable
+// loop {
+//     if a == 5 {
+//     println!("the number is {:?}", a);
+//         break;
+//     }
+//     println!("the number is less or more then {:?}", a);
+//     a += 1;
+// }=>//* in the end the a will be 5   */
+
+//*using while loop */
+// let mut a = 1 ; 
+// while a != 5 {
+//     println!("the number is less or more then {:?}",a);
+//     a += 1;
+// }=> //* in the end the a will be 5   */
+
+  
 
 
 
 
-
-
-fn main() {
- fn name(a: i32, b: i32) -> i32 {
-     a + b //function body
- }
-
-let x = (1,1);
-let y = (3,0);
-let z = (x,1);
-    println!("fdfsfsdf");
-
+fn main(){
 }
+
+
+
+
+
+
+
+
+
+// fn main() {
+
+// }
 
 
 
